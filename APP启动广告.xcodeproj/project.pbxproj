@@ -17,6 +17,7 @@
 		D7D331D01D0FB55A00D1D534 /* APP____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D331CF1D0FB55A00D1D534 /* APP____UITests.m */; };
 		D7D331DF1D0FD12B00D1D534 /* AdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D331DE1D0FD12B00D1D534 /* AdViewController.m */; };
 		D7D331E21D0FD29200D1D534 /* AdView.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D331E11D0FD29200D1D534 /* AdView.m */; };
+		D7D331E41D0FE81800D1D534 /* demo.gif in Resources */ = {isa = PBXBuildFile; fileRef = D7D331E31D0FE81800D1D534 /* demo.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		D7D331DE1D0FD12B00D1D534 /* AdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdViewController.m; sourceTree = "<group>"; };
 		D7D331E01D0FD29200D1D534 /* AdView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdView.h; sourceTree = "<group>"; };
 		D7D331E11D0FD29200D1D534 /* AdView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdView.m; sourceTree = "<group>"; };
+		D7D331E31D0FE81800D1D534 /* demo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = demo.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +129,7 @@
 		D7D331AA1D0FB55A00D1D534 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D7D331E31D0FE81800D1D534 /* demo.gif */,
 				D7D331AB1D0FB55A00D1D534 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -254,6 +257,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D7D331BA1D0FB55A00D1D534 /* LaunchScreen.storyboard in Resources */,
+				D7D331E41D0FE81800D1D534 /* demo.gif in Resources */,
 				D7D331B71D0FB55A00D1D534 /* Assets.xcassets in Resources */,
 				D7D331B51D0FB55A00D1D534 /* Main.storyboard in Resources */,
 			);
@@ -508,6 +512,7 @@
 				D7D331D61D0FB55A00D1D534 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D7D331D71D0FB55A00D1D534 /* Build configuration list for PBXNativeTarget "APP启动广告Tests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +521,7 @@
 				D7D331D91D0FB55A00D1D534 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D7D331DA1D0FB55A00D1D534 /* Build configuration list for PBXNativeTarget "APP启动广告UITests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +530,7 @@
 				D7D331DC1D0FB55A00D1D534 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
